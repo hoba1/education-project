@@ -1,0 +1,377 @@
+{
+    "lectures": [
+        {
+            "id": "1",
+            "title": "Lecture 1",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/online-learning-concept-illustration_114360-4755.jpg?w=740&t=st=1700517209~exp=1700517809~hmac=3d6c96cf879746cc98d498d4a1325e0c778a9ae7d3b67d6d6cf17c61982f2b6d",
+            "duration": "8:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "Vlc Media Player",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty roden",
+            "subscriber": "25254545 Subscribers",
+            "isLive": true
+        },
+        {
+            "id": "2",
+            "title": "Lecture 2 ",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/couple-education-online-with-icons-illustration-design_24877-63617.jpg?w=740&t=st=1700517204~exp=1700517804~hmac=2e486075dcd0e2a39ea8d491552bdea215c7f6b69fed065fdde9d5432304b65e",
+            "duration": "12:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "Blender Inc.",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "description": "Song : Raja Raja Kareja Mein Samaja\nAlbum : Raja Kareja Mein Samaja\nArtist : Radhe Shyam Rasia\nSinger : Radhe Shyam Rasia\nMusic Director : Sohan Lal, Dinesh Kumar\nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi\nMusic Label : T-Series",
+            "subscriber": "25254545 Subscribers",
+            "isLive": true
+        },
+        {
+            "id": "3",
+            "title": "Lecture 3",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/students-studying-online_74855-5584.jpg?w=740&t=st=1700517146~exp=1700517746~hmac=49831a278d8e65be2e88a7f339b883c33c9c640ae3152c0c542473bc32256afe",
+            "duration": "8:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "T-Series Regional",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "description": "Song : Raja Raja Kareja Mein Samaja\nAlbum : Raja Kareja Mein Samaja\nArtist : Radhe Shyam Rasia\nSinger : Radhe Shyam Rasia\nMusic Director : Sohan Lal, Dinesh Kumar\nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi\nMusic Label : T-Series",
+            "subscriber": "25254545 Subscribers",
+            "isLive": true
+        },
+        {
+            "id": "4",
+            "title": "Lecture 4",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/female-student-listening-webinar-online_74855-6461.jpg?w=740&t=st=1700517142~exp=1700517742~hmac=df5ed06cfe52ecd3c935c49322e75cd547e8036b7b1f453f8811c37b338f4db5",
+            "duration": "8:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "T-Series Regional",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "description": " Introducing Chromecast. The easiest way to enjoy online video and music on your TV—for when Batman's escapes aren't quite big enough. For $35. Learn how to use Chromecast with Google Play Movies and more at google.com/chromecast.",
+            "subscriber": "25254545 Subscribers",
+            "isLive": false
+        },
+        {
+            "id": "5",
+            "title": "Lecture 5",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/online-learning-isometric-concept_1284-17947.jpg?w=740&t=st=1700517113~exp=1700517713~hmac=c446116a252dfbca429cdda672655b58003eed7170ba34cc0046e5594e6262d5",
+            "duration": "8:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "Vlc Media Player",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the ",
+            "subscriber": "25254545 Subscribers",
+            "isLive": true
+        },
+        {
+            "id": "6",
+            "title": "Lecture 6",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/webinar-landing-page-template_23-2148800229.jpg?w=740&t=st=1700516963~exp=1700517563~hmac=73aba71143219588535bb118fa0ef296f7b999d8b262dce0759c5eb2513a9a95",
+            "duration": "8:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "T-Series Regional",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "description": "Song : Raja Raja Kareja Mein Samaja\nAlbum : Raja Kareja Mein Samaja\nArtist : Radhe Shyam Rasia\nSinger : Radhe Shyam Rasia\nMusic Director : Sohan Lal, Dinesh Kumar\nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi\nMusic Label : T-Series",
+            "subscriber": "25254545 Subscribers",
+            "isLive": false
+        },
+        {
+            "id": "7",
+            "title": "Lecture 7",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/webinar-concept-illustration_114360-4764.jpg?w=740&t=st=1700516959~exp=1700517559~hmac=59340c6c9d5747c860e8df794949dbcd365c45706b454e9cb9f2c912e7142521",
+            "duration": "8:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "T-Series Regional",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "description": " Introducing Chromecast. The easiest way to enjoy online video and music on your TV—for when Batman's escapes aren't quite big enough. For $35. Learn how to use Chromecast with Google Play Movies and more at google.com/chromecast.",
+            "subscriber": "25254545 Subscribers",
+            "isLive": true
+        },
+        {
+            "id": "8",
+            "title": "Lecture 8",
+            "thumbnailUrl": "https://img.freepik.com/free-vector/online-tutorials-concept_52683-37480.jpg?w=740&t=st=1700516956~exp=1700517556~hmac=732504c08712d2a259eed66a1216806280bd23c4613f9cfb370ea9a01aa0f035",
+            "duration": "12:18",
+            "uploadTime": "May 9, 2011",
+            "views": "24,969,123",
+            "author": "Blender Inc.",
+            "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "description": "Song : Raja Raja Kareja Mein Samaja\nAlbum : Raja Kareja Mein Samaja\nArtist : Radhe Shyam Rasia\nSinger : Radhe Shyam Rasia\nMusic Director : Sohan Lal, Dinesh Kumar\nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi\nMusic Label : T-Series",
+            "subscriber": "25254545 Subscribers",
+            "isLive": false
+        }
+    ],
+    "exams" : [
+        {
+            "id": 1,
+            "exam_duration_by_min": 60,
+            "final_mark": 9,
+            "examtitle": "exam-1",
+            "qutions" : [
+                {
+                    "title": "Why We Use <br> Element",
+                    "answer_1": "To Make Text Bold",
+                    "answer_2": "To Make Text Italic",
+                    "answer_3": "To Add Breakline",
+                    "answer_4": "To Create Horizontal Line",
+                    "qution_mark": 1,
+                    "right_answer": "To Add Breakline"
+                },
+                {
+                    "title": "Is <img> Element Has Attribute href",
+                    "answer_1": "Yes",
+                    "answer_2": "No Its For Anchor Tag <a>",
+                    "answer_3": "All Elements Has This Attribute",
+                    "answer_4": "Answer 1 And 3 Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "No Its For Anchor Tag <a>"
+                },
+                {
+                    "title": "How Can We Make Element Text Bold",
+                    "answer_1": "Putting It Inside <b> Tag",
+                    "answer_2": "Putting It Inside <strong> Tag",
+                    "answer_3": "Customizing It With Font-Weight Property In CSS",
+                    "answer_4": "All Answers Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "All Answers Is Right"
+                },
+                {
+                    "title": "What Is The Right Hierarchy For Creating Part Of Page",
+                    "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+                    "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+                    "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+                    "answer_4": "All Solutions Is Wrong",
+                    "qution_mark": 1,
+                    "right_answer": "All Solutions Is Wrong"
+                },
+                {
+                    "title": "How Can We Include External Page Inside Our HTML Page",
+                    "answer_1": "By Using Include in HTML",
+                    "answer_2": "By Using Load In HTML",
+                    "answer_3": "By Using iFrame Tag",
+                    "answer_4": "All Solutions Is Wrong",
+                    "qution_mark": 1,
+                    "right_answer": "By Using iFrame Tag"
+                },
+                {
+                    "title": "What Is The Tag That Not Exists in HTML",
+                    "answer_1": "<object>",
+                    "answer_2": "<basefont>",
+                    "answer_3": "<abbr>",
+                    "answer_4": "All Tags Is Exists in HTML",
+                    "qution_mark": 1,
+                    "right_answer": "All Tags Is Exists in HTML"
+                },
+                {
+                    "title": "How We Specify Document Type Of HTML5 Page",
+                    "answer_1": "<DOCTYPE html>",
+                    "answer_2": "<DOCTYPE html5>",
+                    "answer_3": "<!DOCTYPE html5>",
+                    "answer_4": "<!DOCTYPE html>",
+                    "qution_mark": 1,
+                    "right_answer": "<!DOCTYPE html>"
+                },
+                {
+                    "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+                    "answer_1": "<article>",
+                    "answer_2": "<section>",
+                    "answer_3": "<blockquote>",
+                    "answer_4": "<aside>",
+                    "qution_mark": 1,
+                    "right_answer": "<blockquote>"
+                },
+                {
+                    "title": "In HTML Can We Use This Way To Add Attributes",
+                    "answer_1": "<div class='class-name'>",
+                    "answer_2": "<div class=class-name>",
+                    "answer_3": "<div class=\"class-name\">",
+                    "answer_4": "All Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "All Is Right"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "exam_duration_by_min": 60,
+            "final_mark": 9,
+            "examtitle": "exam-2",
+            "qutions" : [
+                {
+                    "title": "Why We Use <br> Element",
+                    "answer_1": "To Make Text Bold",
+                    "answer_2": "To Make Text Italic",
+                    "answer_3": "To Add Breakline",
+                    "answer_4": "To Create Horizontal Line",
+                    "qution_mark": 1,
+                    "right_answer": "To Add Breakline"
+                },
+                {
+                    "title": "Is <img> Element Has Attribute href",
+                    "answer_1": "Yes",
+                    "answer_2": "No Its For Anchor Tag <a>",
+                    "answer_3": "All Elements Has This Attribute",
+                    "answer_4": "Answer 1 And 3 Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "No Its For Anchor Tag <a>"
+                },
+                {
+                    "title": "How Can We Make Element Text Bold",
+                    "answer_1": "Putting It Inside <b> Tag",
+                    "answer_2": "Putting It Inside <strong> Tag",
+                    "answer_3": "Customizing It With Font-Weight Property In CSS",
+                    "answer_4": "All Answers Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "All Answers Is Right"
+                },
+                {
+                    "title": "What Is The Right Hierarchy For Creating Part Of Page",
+                    "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+                    "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+                    "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+                    "answer_4": "All Solutions Is Wrong",
+                    "qution_mark": 1,
+                    "right_answer": "All Solutions Is Wrong"
+                },
+                {
+                    "title": "How Can We Include External Page Inside Our HTML Page",
+                    "answer_1": "By Using Include in HTML",
+                    "answer_2": "By Using Load In HTML",
+                    "answer_3": "By Using iFrame Tag",
+                    "answer_4": "All Solutions Is Wrong",
+                    "qution_mark": 1,
+                    "right_answer": "By Using iFrame Tag"
+                },
+                {
+                    "title": "What Is The Tag That Not Exists in HTML",
+                    "answer_1": "<object>",
+                    "answer_2": "<basefont>",
+                    "answer_3": "<abbr>",
+                    "answer_4": "All Tags Is Exists in HTML",
+                    "qution_mark": 1,
+                    "right_answer": "All Tags Is Exists in HTML"
+                },
+                {
+                    "title": "How We Specify Document Type Of HTML5 Page",
+                    "answer_1": "<DOCTYPE html>",
+                    "answer_2": "<DOCTYPE html5>",
+                    "answer_3": "<!DOCTYPE html5>",
+                    "answer_4": "<!DOCTYPE html>",
+                    "qution_mark": 1,
+                    "right_answer": "<!DOCTYPE html>"
+                },
+                {
+                    "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+                    "answer_1": "<article>",
+                    "answer_2": "<section>",
+                    "answer_3": "<blockquote>",
+                    "answer_4": "<aside>",
+                    "qution_mark": 1,
+                    "right_answer": "<blockquote>"
+                },
+                {
+                    "title": "In HTML Can We Use This Way To Add Attributes",
+                    "answer_1": "<div class='class-name'>",
+                    "answer_2": "<div class=class-name>",
+                    "answer_3": "<div class=\"class-name\">",
+                    "answer_4": "All Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "All Is Right"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "exam_duration_by_min": 60,
+            "final_mark": 9,
+            "examtitle": "exam-3",
+            "qutions" : [
+                {
+                    "title": "Why We Use <br> Element",
+                    "answer_1": "To Make Text Bold",
+                    "answer_2": "To Make Text Italic",
+                    "answer_3": "To Add Breakline",
+                    "answer_4": "To Create Horizontal Line",
+                    "qution_mark": 1,
+                    "right_answer": "To Add Breakline"
+                },
+                {
+                    "title": "Is <img> Element Has Attribute href",
+                    "answer_1": "Yes",
+                    "answer_2": "No Its For Anchor Tag <a>",
+                    "answer_3": "All Elements Has This Attribute",
+                    "answer_4": "Answer 1 And 3 Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "No Its For Anchor Tag <a>"
+                },
+                {
+                    "title": "How Can We Make Element Text Bold",
+                    "answer_1": "Putting It Inside <b> Tag",
+                    "answer_2": "Putting It Inside <strong> Tag",
+                    "answer_3": "Customizing It With Font-Weight Property In CSS",
+                    "answer_4": "All Answers Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "All Answers Is Right"
+                },
+                {
+                    "title": "What Is The Right Hierarchy For Creating Part Of Page",
+                    "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+                    "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+                    "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+                    "answer_4": "All Solutions Is Wrong",
+                    "qution_mark": 1,
+                    "right_answer": "All Solutions Is Wrong"
+                },
+                {
+                    "title": "How Can We Include External Page Inside Our HTML Page",
+                    "answer_1": "By Using Include in HTML",
+                    "answer_2": "By Using Load In HTML",
+                    "answer_3": "By Using iFrame Tag",
+                    "answer_4": "All Solutions Is Wrong",
+                    "qution_mark": 1,
+                    "right_answer": "By Using iFrame Tag"
+                },
+                {
+                    "title": "What Is The Tag That Not Exists in HTML",
+                    "answer_1": "<object>",
+                    "answer_2": "<basefont>",
+                    "answer_3": "<abbr>",
+                    "answer_4": "All Tags Is Exists in HTML",
+                    "qution_mark": 1,
+                    "right_answer": "All Tags Is Exists in HTML"
+                },
+                {
+                    "title": "How We Specify Document Type Of HTML5 Page",
+                    "answer_1": "<DOCTYPE html>",
+                    "answer_2": "<DOCTYPE html5>",
+                    "answer_3": "<!DOCTYPE html5>",
+                    "answer_4": "<!DOCTYPE html>",
+                    "qution_mark": 1,
+                    "right_answer": "<!DOCTYPE html>"
+                },
+                {
+                    "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+                    "answer_1": "<article>",
+                    "answer_2": "<section>",
+                    "answer_3": "<blockquote>",
+                    "answer_4": "<aside>",
+                    "qution_mark": 1,
+                    "right_answer": "<blockquote>"
+                },
+                {
+                    "title": "In HTML Can We Use This Way To Add Attributes",
+                    "answer_1": "<div class='class-name'>",
+                    "answer_2": "<div class=class-name>",
+                    "answer_3": "<div class=\"class-name\">",
+                    "answer_4": "All Is Right",
+                    "qution_mark": 1,
+                    "right_answer": "All Is Right"
+                }
+            ]
+        }
+    ]
+}
