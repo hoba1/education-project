@@ -3,32 +3,26 @@ import axios from "axios";
 const API_URL = "https://page-login.onrender.com/api/auth/";
 
 class AuthService {
-  login(username, password) {
-    return axios
+  async login(username, password) {
+    const response = await axios
       .post(API_URL + "signin", {
         username,
         password
-      })
-      .then(response => {
-        if (response.data.accessToken) {
-          localStorage.setItem("user", JSON.stringify(response.data));
-        }
-
-        return response.data;
       });
+    if (response.data.accessToken) {
+      localStorage.setItem("user", JSON.stringify(response.data));
+    }
+    return response.data;
   }
 
-  logout() {
-    localStorage.removeItem("user");
-  }
-
-  register(firstname, secondname, username, email, password) {
-    return axios.post(API_URL + "signup", {
+  async register(firstname, secondname, username, email, password, role) {
+    return await axios.post(API_URL + "signup", {
       firstname,
       secondname,
       username,
       email,
-      password
+      password,
+      role
     });
   }
 
