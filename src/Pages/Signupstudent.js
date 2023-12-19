@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Randomizebackground from "../components/Randomizebackground";
 import Slidebar from "../components/Slidebar";
 import AuthService from "../services/auth.service";
+import { useNavigate } from 'react-router-dom';
 
 function Signupstudent() {
   const [firstname, setFirstname] = useState("");
@@ -13,6 +14,8 @@ function Signupstudent() {
   const [successful, setSuccessful] = useState(false);
   const [message, setMessage] = useState("");
 
+  const navigate = useNavigate()
+
   const handleRegister = (e) => {
     e.preventDefault();
 
@@ -23,17 +26,18 @@ function Signupstudent() {
       (response) => {
         setMessage(response.data.message);
         setSuccessful(true);
+        navigate("/home")
       },
       (error) => {
         const resMessage =
-          (error.response &&
+        (error.response &&
             error.response.data &&
             error.response.data.message) ||
           error.message ||
           error.toString();
 
-        setSuccessful(false);
-        setMessage(resMessage);
+          setSuccessful(false);
+          setMessage(resMessage);
       }
     );
   };

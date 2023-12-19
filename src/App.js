@@ -12,6 +12,7 @@ import Signupparent from './Pages/Signupparent';
 import Signupadmin from './Pages/Signupadmin';
 import Lecture from './Pages/Lecture';
 import { CircleLoader } from 'react-spinners';
+import Home from './Pages/Home';
 
 function App() {
   const [loading , setloading] = useState(false)
@@ -26,7 +27,7 @@ function App() {
       e.preventDefault()
     })
   }, [])
-
+  
   return (
     <div className="App">
       {
@@ -41,6 +42,7 @@ function App() {
             <Route path={'/register/signupstudent'} element={<Signupstudent />}/>
             <Route path={'/register/signupparent'} element={<Signupparent />}/>
             <Route path={'/register/signupadmin'} element={<Signupadmin />}/>
+            <Route path={'/home'} element={<Home />}/>
             <Route path={'/lectures'} element={<Lectures />}/>
             <Route path={'/lectures/:lectureid'} element={<Lecture />}/>
             <Route path={'/exams'} element={<Exams />}/>

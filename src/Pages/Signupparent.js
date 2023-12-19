@@ -2,6 +2,7 @@ import Randomizebackground from "../components/Randomizebackground"
 import Slidebar from "../components/Slidebar"
 import React, { Component, useState } from 'react';
 import AuthService from "../services/auth.service";
+import { useNavigate } from "react-router-dom";
 
 function Signupparent(){
     const [firstname, setFirstname] = useState("");
@@ -13,6 +14,8 @@ function Signupparent(){
   const [successful, setSuccessful] = useState(false);
   const [message, setMessage] = useState("");
 
+  const navigate = useNavigate()
+
   const handleRegister = (e) => {
     e.preventDefault();
 
@@ -23,17 +26,18 @@ function Signupparent(){
       (response) => {
         setMessage(response.data.message);
         setSuccessful(true);
+        navigate("/home")
       },
       (error) => {
         const resMessage =
-          (error.response &&
-            error.response.data &&
-            error.response.data.message) ||
+        (error.response &&
+          error.response.data &&
+          error.response.data.message) ||
           error.message ||
           error.toString();
-
-        setSuccessful(false);
-        setMessage(resMessage);
+          
+          setSuccessful(false);
+          setMessage(resMessage);
       }
     );
   };

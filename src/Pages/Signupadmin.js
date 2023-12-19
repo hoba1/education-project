@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Randomizebackground from "../components/Randomizebackground"
 import Slidebar from "../components/Slidebar"
 import AuthService from "../services/auth.service"
@@ -14,6 +15,8 @@ function Signupadmin(){
   const [successful, setSuccessful] = useState(false);
   const [message, setMessage] = useState("");
 
+  const navigate = useNavigate()
+
   const handleRegister = (e) => {
     e.preventDefault();
 
@@ -24,6 +27,7 @@ function Signupadmin(){
       (response) => {
         setMessage(response.data.message);
         setSuccessful(true);
+        navigate("/home")
       },
       (error) => {
         const resMessage =
