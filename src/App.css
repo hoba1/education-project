@@ -239,7 +239,8 @@ p:hover{
 }
 /* end features  */
 /* start nav bar */
-.nav-link:hover{
+.nav-link:hover,
+.nav-link.active{
   color: var(--main-color) !important;
 }
 @media (max-width: 991px){

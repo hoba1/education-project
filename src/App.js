@@ -1,52 +1,96 @@
 import './App.css';
-import Homereg from './Pages/Home-reg';
 import { Route, Routes } from 'react-router-dom';
-import Register from './Pages/Register';
-import Lectures from './Pages/Lectures';
-import Exams from './Pages/Exams';
-import Exam from './Pages/Exam';
-import { useEffect, useState } from 'react';
-import Login from './Pages/Login';
-import Signupstudent from './Pages/Signupstudent';
-import Signupparent from './Pages/Signupparent';
-import Signupadmin from './Pages/Signupadmin';
-import Lecture from './Pages/Lecture';
+import React, { useEffect, useState } from 'react';
 import { CircleLoader } from 'react-spinners';
-import Home from './Pages/Home';
+
+const  Lazyhomereg = React.lazy(() => import('./Pages/Home-reg'))
+const  Lazylogin = React.lazy(() => import('./Pages/Login'))
+const  Lazyregister = React.lazy(() => import('./Pages/Register'))
+const  LazySignupstudent = React.lazy(() => import('./Pages/Signupstudent'))
+const  LazySignupadmin = React.lazy(() => import('./Pages/Signupadmin'))
+const  LazySignupparent = React.lazy(() => import('./Pages/Signupparent'))
+const  LazyHome = React.lazy(() => import('./Pages/Home'))
+const  LazyLectures = React.lazy(() => import('./Pages/Lectures'))
+const  LazyLecture = React.lazy(() => import('./Pages/Lecture'))
+const  LazyExams = React.lazy(() => import('./Pages/Exams'))
+const  LazyExam = React.lazy(() => import('./Pages/Exam'))
 
 function App() {
-  const [loading , setloading] = useState(false)
+  const [loadingcolor, setloadingcolor] = useState("#FF9800")
 
   useEffect(() => {
-    setloading(true)
-    setTimeout(() => {
-      setloading(false)
-    }, 5000);
-
     document.body.addEventListener("contextmenu" , (e) => {
-      e.preventDefault()
+      // e.preventDefault()
     })
+
+    if(localStorage.getItem("color_option") !== null){
+      setloadingcolor(localStorage.getItem("color_option"))
+    }
   }, [])
   
   return (
     <div className="App">
       {
-        loading? 
-        <CircleLoader color={document.documentElement.style.getPropertyValue("--main-color")} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>
-        :
+        // loading? 
+        // <CircleLoader color={document.documentElement.style.getPropertyValue("--main-color")} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>
+        // :
         <div className='render'>
           <Routes>
-            <Route path={'/'} element={<Homereg />}/>
-            <Route path={'/login'} element={<Login />}/>
-            <Route path={'/register'} element={<Register />}/>
-            <Route path={'/register/signupstudent'} element={<Signupstudent />}/>
-            <Route path={'/register/signupparent'} element={<Signupparent />}/>
-            <Route path={'/register/signupadmin'} element={<Signupadmin />}/>
-            <Route path={'/home'} element={<Home />}/>
-            <Route path={'/lectures'} element={<Lectures />}/>
-            <Route path={'/lectures/:lectureid'} element={<Lecture />}/>
-            <Route path={'/exams'} element={<Exams />}/>
-            <Route path={'/exams/:examid'} element={<Exam />}/>
+            <Route path={'/'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <Lazyhomereg />
+              </React.Suspense>}
+            />
+            <Route path={'/login'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <Lazylogin />
+              </React.Suspense>}
+            />
+            <Route path={'/register'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <Lazyregister />
+              </React.Suspense>}
+            />
+            <Route path={'/register/signupstudent'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazySignupstudent />
+              </React.Suspense>}
+            />
+            <Route path={'/register/signupparent'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazySignupparent />
+              </React.Suspense>}
+            />
+            <Route path={'/register/signupadmin'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazySignupadmin />
+              </React.Suspense>}
+            />
+            <Route path={'/home'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazyHome />
+              </React.Suspense>}
+            />
+            <Route path={'/lectures'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazyLectures />
+              </React.Suspense>}
+            />
+            <Route path={'/lectures/:lectureid'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazyLecture />
+              </React.Suspense>}
+            />  
+            <Route path={'/exams'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazyExams />
+              </React.Suspense>}
+            />
+            <Route path={'/exams/:examid'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazyExam />
+              </React.Suspense>}
+            />
           </Routes>
         </div>
       }

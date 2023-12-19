@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 function Navbar(){
     return(
         <>
@@ -13,13 +13,16 @@ function Navbar(){
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link to={"/lectures"} className="nav-link fs-5 text-light" >Lectures</Link>
+                            <NavLink to={"/home"} className="nav-link fs-5 text-light" >Home</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to={"/lectures"} className="nav-link fs-5 text-light" >Lectures</NavLink>
                         </li>
                         <li className="nav-item">
                             <button className="nav-link fs-5 text-light">Home Work</button>
                         </li>
                         <li className="nav-item">
-                            <Link to={"/exams"} className="nav-link fs-5 text-light">Exams</Link>
+                            <NavLink to={"/exams"} className="nav-link fs-5 text-light">Exams</NavLink>
                         </li>
                         <li className="nav-item">
                             <button className="nav-link fs-5 text-light">Contact Us</button>
