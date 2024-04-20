@@ -73,7 +73,6 @@ function Bulletsreg(){
         }
 
         scrollToSomewhere(allBullets);
-        // scrollToSomewhere(allLinks);
     })
 
     return(
