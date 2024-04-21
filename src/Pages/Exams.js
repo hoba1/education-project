@@ -6,6 +6,7 @@ import Bullets from "../components/Bullets";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 import Footer from "../components/Footer";
+import LandingText from "../components/LandingText";
 
 function Exams(){
     const [exams, setexams] = useState([]);
@@ -20,12 +21,7 @@ function Exams(){
             <Slidebar />
             <Randomizebackground />
             <Bullets />
-            <div className="landing-text position-absolute top-50 start-50 translate-middle w-100 text-center z-1">
-                <div className="container">
-                    <h3 className="text-light fw-bold fs-2">We help you <span>achieve</span> your dream</h3>
-                    <p className="text-light fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias at ab id animi.</p>
-                </div>
-            </div>
+            <LandingText />
             <div className="Exams">
                 <div className="container">
                     <h2 className="section-title position-relative fw-bold overflow-hidden m-auto mt-4 mb-4">
