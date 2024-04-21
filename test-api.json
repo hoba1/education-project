@@ -108,6 +108,7 @@
     "exams" : [
         {
             "id": 1,
+            "uploadTime": "May 9, 2011",
             "exam_duration_by_min": 60,
             "final_mark": 9,
             "examtitle": "exam-1",
@@ -197,6 +198,7 @@
         },
         {
             "id": 2,
+            "uploadTime": "May 9, 2011",
             "exam_duration_by_min": 60,
             "final_mark": 9,
             "examtitle": "exam-2",
@@ -286,6 +288,7 @@
         },
         {
             "id": 3,
+            "uploadTime": "May 9, 2011",
             "exam_duration_by_min": 60,
             "final_mark": 9,
             "examtitle": "exam-3",
