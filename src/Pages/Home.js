@@ -3,11 +3,9 @@ import Bullets from "../components/Bullets";
 import Navbar from "../components/Navbar";
 import Randomizebackground from "../components/Randomizebackground";
 import Slidebar from "../components/Slidebar";
-import { Link } from "react-router-dom";
-import { Fade } from "react-awesome-reveal";
 import Footer from "../components/Footer";
 import LandingText from "../components/LandingText";
-import LatestContent from "../components/LatestContent";
+import ShowContentCards from "../components/ShowContentCards";
 
 export default function Home(){
     const [lectures, setlectures] = useState([]);
@@ -25,7 +23,8 @@ export default function Home(){
             <Randomizebackground />
             <Bullets />
             <LandingText />
-            <LatestContent />
+            <ShowContentCards contentName="lectures" content={lectures} latest={true}/>
+            <ShowContentCards contentName="exams" content={exams} latest={true}/>
             <Footer />
         </>
     )

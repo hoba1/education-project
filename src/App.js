@@ -30,10 +30,6 @@ function App() {
   
   return (
     <div className="App">
-      {
-        // loading? 
-        // <CircleLoader color={document.documentElement.style.getPropertyValue("--main-color")} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>
-        // :
         <div className='render'>
           <Routes>
             <Route path={'/'} element={
@@ -93,7 +89,6 @@ function App() {
             />
           </Routes>
         </div>
-      }
     </div>
   );
 }

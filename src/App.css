@@ -557,8 +557,6 @@ p:hover{
   color: var(--main-color) !important;
 }
 .lecture video{
-  /* padding-left: 490px;
-  padding-top: 35px; */
   height: 300px;
 }
 .lecture h1{
