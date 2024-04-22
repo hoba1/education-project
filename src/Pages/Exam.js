@@ -313,7 +313,7 @@ function Exam(){
     
     useEffect(() => {
         fetch(`http://localhost:9000/exams/${examid.examid}`).then((res) => res.json()).then((data) => {
-            setexamtitle(data.examtitle)
+            setexamtitle(data.title)
             setexam(data.qutions)
             setmin(data.exam_duration_by_min)
             setcountdown(data.exam_duration_by_min * 60)

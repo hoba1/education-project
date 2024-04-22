@@ -38,10 +38,10 @@ function Lectures(){
                                     <div className="card h-100 overflow-auto">
                                         <img src={lecture.thumbnailUrl} className="card-img-top h-75" alt="..."/>
                                         <div className="card-body h-50 mb-2">
-                                            <h5 className="card-title pb-2 text-center">{lecture.title}</h5> 
+                                            <h5 className="card-title pb-2 text-center fs-3 fw-bold mb-3">{lecture.title}</h5> 
                                             <p className="card-text">{lecture.description}</p>
                                         </div>
-                                        <div className="card-footer d-flex justify-content-between align-items-center">
+                                        <div className="card-footer d-flex justify-content-between align-items-center" style={{padding: '0.5rem 0', margin: '0 16px'}}>
                                             <small>{lecture.uploadTime}</small>
                                             <Link to={`/lectures/${lecture.id}`} className="btn text-light">open</Link>
                                         </div>

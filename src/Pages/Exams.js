@@ -37,8 +37,11 @@ function Exams(){
                                 <Fade className="col">
                                     <div className="card h-100 overflow-auto">
                                         <div className="card-body">
-                                            <h5 className="card-title text-center pb-2 fw-bold fs-3">{exam.examtitle}</h5>
+                                            <h5 className="card-title text-center pb-2 fw-bold fs-3">{exam.title}</h5>
                                             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        </div>
+                                        <div className="card-footer d-flex justify-content-between align-items-center" style={{padding: '0.5rem 0', margin: '0 16px'}}>
+                                            <small>{exam.uploadTime}</small>
                                             <Link to={`/exams/${exam.id}`} className="btn btn-primary float-end">Go To Exam</Link>
                                         </div>
                                     </div>

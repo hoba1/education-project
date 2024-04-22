@@ -108,10 +108,11 @@
     "exams" : [
         {
             "id": 1,
+            "title": "exam-1",
+            "description": "With supporting text below as a natural lead-in to additional content.",
             "uploadTime": "May 9, 2011",
             "exam_duration_by_min": 60,
             "final_mark": 9,
-            "examtitle": "exam-1",
             "qutions" : [
                 {
                     "title": "Why We Use <br> Element",
@@ -198,10 +199,11 @@
         },
         {
             "id": 2,
+            "title": "exam-2",
+            "description": "With supporting text below as a natural lead-in to additional content.",
             "uploadTime": "May 9, 2011",
             "exam_duration_by_min": 60,
             "final_mark": 9,
-            "examtitle": "exam-2",
             "qutions" : [
                 {
                     "title": "Why We Use <br> Element",
@@ -288,10 +290,11 @@
         },
         {
             "id": 3,
+            "title": "exam-3",
+            "description": "With supporting text below as a natural lead-in to additional content.",
             "uploadTime": "May 9, 2011",
             "exam_duration_by_min": 60,
             "final_mark": 9,
-            "examtitle": "exam-3",
             "qutions" : [
                 {
                     "title": "Why We Use <br> Element",
