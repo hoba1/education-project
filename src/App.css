@@ -458,6 +458,11 @@ p:hover{
 .qution-box{
   color: var(--text-color);
 }
+@media (max-width: 375px){
+  .gear-qutions{
+    display: none !important;
+  }
+}
 .controls .prev,
 .controls .next{
   color: var(--main-color) !important;

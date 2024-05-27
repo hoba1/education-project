@@ -35,10 +35,10 @@ export default function ShowContentCards(props){
                                 )
                             }
                         })}
-                        {props.latest ? 
+                    </div>
+                    {props.latest ? 
                         <Link to={`/${props.contentName}`} type="button" className="btn btn-outline-primary outline-btn fs-5 d-block mx-auto mt-5 w-50">Show More</Link> :
                         limit < props.content.length && <button type="button" className="btn btn-outline-primary outline-btn fs-5 d-block mx-auto mt-5 w-50" onClick={() => {setLimit(limit + 3)}}>Show More</button>}
-                    </div>
                 </div>    
             </div>
         </>

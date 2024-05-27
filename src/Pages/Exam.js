@@ -118,7 +118,17 @@ function Exam(){
             return(
                 <>
                     <div id="carouselExampleCaptions" className="carousel slide container-of-qutions">
-                            <FontAwesomeIcon icon={faBars} className="btn-bars btn position-absolute end-0 z-2" onClick={() => appearbar()}/>
+                            <div className="d-flex justify-content-between align-items-center">
+                                <FontAwesomeIcon icon={faBars} className="btn-bars btn gear-qutions position-absolute end-0 z-2" onClick={() => appearbar()}/>
+                                <div className="ms-2 d-flex align-items-center gap-2">
+                                    <button className="btn fs-5 end-exam" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{width: "fit-content"}}>Finish</button>
+                                    <div className="Timer p-2 rounded fs-5 fw-bold">{starttimer(hourscount,mincount,seccount)}</div>
+                                    <div className="controls d-flex gap-3">
+                                        <FontAwesomeIcon icon={faCircleArrowLeft} className="prev text-light fs-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"/>
+                                        <FontAwesomeIcon icon={faCircleArrowRight} className="next text-light fs-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"/>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="carousel-indicators position-absolute flex-column m-0 mt-5 end-0 top-0 z-3 d-none overflow-auto">
                                 {exam.map((qutions) => {
                                     if(exam.indexOf(qutions) === 0){
@@ -196,14 +206,6 @@ function Exam(){
                                                 } data-bs-dismiss="modal">End Exam</button>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className="col-10 ms-2 d-flex align-items-center gap-2">
-                                    <button className="btn fs-5 end-exam" data-bs-toggle="modal" data-bs-target="#exampleModal">End Exam</button>
-                                    <div className="Timer p-2 rounded fs-5 fw-bold">{starttimer(hourscount,mincount,seccount)}</div>
-                                    <div className="controls col-2 d-flex gap-3">
-                                        <FontAwesomeIcon icon={faCircleArrowLeft} className="prev text-light fs-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"/>
-                                        <FontAwesomeIcon icon={faCircleArrowRight} className="next text-light fs-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"/>
                                     </div>
                                 </div>
                             </div>

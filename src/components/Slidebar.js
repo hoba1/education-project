@@ -131,7 +131,7 @@ function Slidebar(){
                     </button>
 
                     <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                        <div className="offcanvas-header">
+                        <div className="offcanvas-header d-flex justify-content-between">
                             <h4 className="offcanvas-title" id="offcanvasExampleLabel">Options</h4>
                             <FontAwesomeIcon icon={faCircleXmark} className="close fs-5" type="button" data-bs-dismiss="offcanvas" />
                         </div>
