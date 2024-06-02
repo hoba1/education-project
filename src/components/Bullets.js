@@ -21,9 +21,9 @@ function Bullets(){
                     <div className="bullet position-relative rounded-circle" data-section=".Contact Us">
                         <p className="show-tooltip position-absolute text-center d-none">Contact Us</p>
                     </div>
-                    <div className="bullet position-relative rounded-circle" data-section=".My Profile">
+                    <Link to={"/profile"} className="bullet position-relative rounded-circle" data-section=".My Profile">
                         <p className="show-tooltip position-absolute text-center d-none">My Profile</p>
-                    </div>
+                    </Link>
                 </div>
             )
         }

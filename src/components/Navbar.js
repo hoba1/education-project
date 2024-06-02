@@ -28,7 +28,7 @@ function Navbar(){
                             <button className="nav-link fs-5 text-light">Contact Us</button>
                         </li>
                         <li className="nav-item">
-                            <button className="nav-link fs-5 text-light">My Profile</button>
+                            <NavLink to={"/profile"} className="nav-link fs-5 text-light">My Profile</NavLink>
                         </li>
                     </ul>
                     </div>

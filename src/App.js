@@ -14,6 +14,7 @@ const  LazyLectures = React.lazy(() => import('./Pages/Lectures'))
 const  LazyLecture = React.lazy(() => import('./Pages/Lecture'))
 const  LazyExams = React.lazy(() => import('./Pages/Exams'))
 const  LazyExam = React.lazy(() => import('./Pages/Exam'))
+const  LazyProfileStudent = React.lazy(() => import('./Pages/Profile-Student'))
 
 function App() {
   const [loadingcolor, setloadingcolor] = useState("#FF9800")
@@ -85,6 +86,11 @@ function App() {
             <Route path={'/exams/:examid'} element={
               <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
                 <LazyExam />
+              </React.Suspense>}
+            />
+            <Route path={'/profile'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazyProfileStudent />
               </React.Suspense>}
             />
           </Routes>

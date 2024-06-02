@@ -43,7 +43,7 @@ function Exam(){
                             <div className="total-mark d-flex align-items-center flex-column mb-3">
                                 <p className="m-0">Your Mark</p>
                                 <p className="result pt-2 pb-2 ps-3 pe-3 rounded">{exammark} / {finalmark}</p>
-                                <div className="progress" style={{background: `conic-gradient(var(--main-color) ${((exammark / finalmark) * 100) * 3.6}deg, var(--background-color) 0deg)`}}>
+                                <div className="circle-progress" style={{background: `conic-gradient(var(--main-color) ${((exammark / finalmark) * 100) * 3.6}deg, var(--background-color) 0deg)`}}>
                                     <p className="z-3 fs-3 position-absolute top-50 start-50 translate-middle">{Math.round((exammark / finalmark) * 100)}%</p>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@ function Exam(){
                                 <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div className="modal-dialog">
                                         <div className="modal-content">
-                                            <div className="modal-header border-0">
+                                            <div className="modal-header d-flex justify-content-between border-0">
                                                 <h1 className="modal-title fs-5" id="exampleModalLabel">Are You Sure To Finish The Exam</h1>
                                                 <FontAwesomeIcon icon={faClose} className="btn" data-bs-dismiss="modal" aria-label="Close"/>
                                             </div>

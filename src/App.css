@@ -34,6 +34,10 @@ ul{
   color: white !important;
 }
 
+.icon-colored{
+  color: var(--main-color);
+}
+
 
 /* start scroll bar  */
 ::-webkit-scrollbar{
@@ -511,7 +515,8 @@ p:hover{
 .result-box{
   font-family: 'Roboto', sans-serif;
 }
-.total-mark .progress{
+.circle-progress,
+.tasks .circle-progress{
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -521,7 +526,12 @@ p:hover{
   justify-content: center;
   color: var(--text-color);
 }
-.total-mark .progress::before{
+.tasks .circle-progress{
+  width: 70px;
+  height: 70px;
+}
+.circle-progress::before,
+.tasks .circle-progress::before{
   content: "";
   position: absolute;
   width: 120px;
@@ -529,7 +539,11 @@ p:hover{
   border-radius: 50%;
   background-color: var(--background-color);
 }
-.total-mark .progress .progress-bar{
+.tasks .circle-progress::before{
+  width: 50px;
+  height: 50px;
+}
+.circle-progress .progress-bar{
   width: 0% !important;
 }
 .total-mark .result{
@@ -588,6 +602,26 @@ p:hover{
   padding:20px ;
 }
 /* end lecture */
+/* start profile student */
+@media (max-width: 768px){
+  .profile-container{
+    flex-direction: column;
+  }
+  .graphs-table,
+  .profile-cards{
+    max-width: 100% !important;
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 425px){
+  .profile-cards .statistics {
+    flex-wrap: wrap 
+  }
+  .profile-cards .statistics .card{
+    width: 100% !important
+  }
+}
+/* end profile student */
 /* start footer */
 .footer {
   background-color: var(--alt-background-color);
