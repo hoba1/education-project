@@ -19,7 +19,7 @@ function Navbar(){
                             <NavLink to={"/lectures"} className="nav-link fs-5 text-light" >Lectures</NavLink>
                         </li>
                         <li className="nav-item">
-                            <button className="nav-link fs-5 text-light">Home Work</button>
+                            <NavLink to={"/homeworks"} className="nav-link fs-5 text-light" >Homeworks</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to={"/exams"} className="nav-link fs-5 text-light">Exams</NavLink>

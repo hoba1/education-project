@@ -14,7 +14,10 @@ const  LazyLectures = React.lazy(() => import('./Pages/Lectures'))
 const  LazyLecture = React.lazy(() => import('./Pages/Lecture'))
 const  LazyExams = React.lazy(() => import('./Pages/Exams'))
 const  LazyExam = React.lazy(() => import('./Pages/Exam'))
+const  LazyHomeWorks = React.lazy(() => import('./Pages/HomeWorks'))
 const  LazyProfileStudent = React.lazy(() => import('./Pages/Profile-Student'))
+const  LazyProfileTeacher = React.lazy(() => import('./Pages/Profile-Teacher'))
+const  LazyProfileAdmin = React.lazy(() => import('./Pages/Profile-Admin'))
 
 function App() {
   const [loadingcolor, setloadingcolor] = useState("#FF9800")
@@ -88,9 +91,14 @@ function App() {
                 <LazyExam />
               </React.Suspense>}
             />
+            <Route path={'/homeworks'} element={
+              <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
+                <LazyHomeWorks />
+              </React.Suspense>}
+            />
             <Route path={'/profile'} element={
               <React.Suspense fallback={<CircleLoader color={loadingcolor} size={150} className='loading-page position-absolute start-50 top-50 translate-middle'/>}>
-                <LazyProfileStudent />
+                <LazyProfileTeacher />
               </React.Suspense>}
             />
           </Routes>

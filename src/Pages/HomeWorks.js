@@ -7,13 +7,13 @@ import Footer from "../components/Footer";
 import LandingText from "../components/LandingText";
 import ShowContentCards from "../components/ShowContentCards";
 
-function Lectures(){
-    const [lectures, setlectures] = useState([]);
+function HomeWorks(){
+    const [HomeWorks, setHomeWorks] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:9000/lectures").then((res) => res.json()).then((data) => setlectures(data));
+        fetch("http://localhost:9000/homeworks").then((res) => res.json()).then((data) => setHomeWorks(data))
     } ,[])
-
+    
     return(
         <>
             <Navbar />
@@ -21,10 +21,10 @@ function Lectures(){
             <Randomizebackground />
             <Bullets />
             <LandingText />
-            <ShowContentCards contentName="lectures" content={lectures} />
+            <ShowContentCards contentName="homeWorks" content={HomeWorks} />
             <Footer />
         </>
     )
 }
 
-export default Lectures;
+export default HomeWorks;

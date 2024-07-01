@@ -37,7 +37,26 @@ ul{
 .icon-colored{
   color: var(--main-color);
 }
+.form-control:focus{
+  background-color: var(--background-color) !important;
+  color: white !important;
+}
+.table th,
+.table td{
+  background-color: var(--alt-background-color);
+  color: var(--text-color);
+  border-color: var(--main-color);
+}
+.form-floating input:focus{
+  outline: none;
+  border: none;
+  background-color: var(--background-color);
+  color: var(--main-color);
+}
+.form-floating label::after{
+  background-color: transparent !important;
 
+}
 
 /* start scroll bar  */
 ::-webkit-scrollbar{
@@ -45,6 +64,9 @@ ul{
 }
 ::-webkit-scrollbar-thumb{
   background-color: var(--main-color);
+}
+::-webkit-scrollbar-corner{
+  background-color: var(--background-color);
 }
 /* end scroll bar  */
 
@@ -160,7 +182,7 @@ input[type=submit]:hover{
   color: var(--main-color);
 }
 label{
-  color: var(--text-color);
+  color: var(--text-color) !important;
 }
 /* p{
   position: absolute;
@@ -622,6 +644,27 @@ p:hover{
   }
 }
 /* end profile student */
+/* start profile teacher  */
+@media (max-width: 374px){
+  .control-website .containerOfButtons{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  .control-website .containerOfButtons{
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* end profile teacher  */
+/* start profile admin */
+@media (max-width: 1200px){
+  .inputs-data{
+    flex-direction: column;
+  }
+}
+/* end profile admin */
 /* start footer */
 .footer {
   background-color: var(--alt-background-color);
